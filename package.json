@@ -1,0 +1,35 @@
+{
+  "name": "@apility/vite-plugin-dev-manifest",
+  "version": "1.0.0",
+  "description": "A vite plugin to be used with Backend Integration for development.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apility/vite-plugin-dev-manifest.git"
+  },
+  "keywords": [
+    "vite",
+    "dev",
+    "manifest"
+  ],
+  "author": "cathrinevaage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apility/vite-plugin-dev-manifest/issues"
+  },
+  "homepage": "https://github.com/apility/vite-plugin-dev-manifest#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "esbuild": "^0.14.26",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.0",
+    "rollup-plugin-esbuild": "^4.8.2",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.0"
+  }
+}
