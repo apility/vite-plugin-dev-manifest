@@ -3,7 +3,7 @@ import { AddressInfo } from 'net'
 import { resolve } from 'path'
 import { writeFileSync } from 'fs'
 
-export const devManifest = (): Plugin => {
+export default (): Plugin => {
   let env: ConfigEnv
 
   return {
