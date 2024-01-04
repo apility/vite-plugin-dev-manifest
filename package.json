@@ -1,6 +1,6 @@
 {
   "name": "@apility/vite-plugin-dev-manifest",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A vite plugin to be used with Backend Integration for development.",
   "scripts": {
     "build": "tsc && vite build"
